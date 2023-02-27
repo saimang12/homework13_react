@@ -3,7 +3,9 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 
 
+
 function App() {
+  console.log()
   return (
     <div className="Wrap">
       <Header />
