@@ -1,29 +1,22 @@
 import { HiBars3 } from "react-icons/hi2";
+import { Link } from "react-router-dom";
+import GlobalNav from "./GlobalNav";
 
-const Header = () => {
+const Header = ({ NAV }) => {
     return (
-        <div className="Header">
+        <header className="header">
             <div className="inner">
                 <h1>
-                    <a href="/">
-                        <img src={process.env.PUBLIC_URL + '/img/work011.jpg'} alt="" />
-                    </a>
+                    <Link to='/'>
+                        <img src={process.env.PUBLIC_URL + '/img/pclogo.png'} alt="" />
+                    </Link>
                 </h1>
                 <nav className="gnb">
-                    <ul>
-                        <li><a href="">menu04122413</a></li>
-                        <li><a href="">menu04</a></li>
-                        <li><a href="">menu04</a></li>
-                        <li><a href="">menu04</a></li>
-                        <li><a href="">menu04</a></li>
-                    </ul>
+                    <GlobalNav NAV={NAV} />
                 </nav>
-                <div className="h_icon">
-                    <HiBars3 />
-                </div>
             </div>
 
-        </div>
+        </header>
     )
 }
 
