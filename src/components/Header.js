@@ -11,7 +11,7 @@ const Header = () => {
                 </h1>
                 <nav className="gnb">
                     <ul>
-                        <li><a href="">menu04123</a></li>
+                        <li><a href="">menu04122413</a></li>
                         <li><a href="">menu04</a></li>
                         <li><a href="">menu04</a></li>
                         <li><a href="">menu04</a></li>
