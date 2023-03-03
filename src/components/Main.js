@@ -9,7 +9,7 @@ const Main = ({ slide, MAIN_CONTENT }) => {
         <>
             <MainVisual slide={slide} />
             <MainContent slide={slide} MAIN_CONTENT={MAIN_CONTENT} />
-            <MainProduct />
+            {/* <MainProduct /> */}
         </>
     )
 }

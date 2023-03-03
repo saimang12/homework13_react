@@ -13,6 +13,7 @@ const MainContent = ({ slide, MAIN_CONTENT }) => {
                                 <figure key={it.id}>
                                     <img src={it.src} alt={it.alt} />
                                 </figure>
+
                             )
                         })
                     }
